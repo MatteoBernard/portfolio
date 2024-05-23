@@ -1,0 +1,212 @@
+[
+  {
+    "name": "SkylandersWiki",
+    "image": "assets/images/icons/skylandersWiki.png",
+    "description": {
+      "short": "Projet personnel, application mobile hybride, wiki sur les figurines Skylanders.",
+      "long": "J'ai réalisé ce projet pour m'entraîner à la création d'applications mobiles hybrides, mais surtout pour me découvrir le framework React Native, et pour renflouer mes connaissances en Typescript.\nL'application est un wiki sur les figurines Skylanders, elle permet de consulter les différents personnages, éléments, jeux et figurines de la licence.\nJ'ai utilisé une API que j'ai également réalisée. Les appels API se font à chaque chargement d'une nouvelle page. Il y a également un système de filtrage en fonction de différents paramètres."
+    },
+    "date": "avril 2024",
+    "duration": "~15 heures",
+    "images": [
+      "assets/images/projects/skylandersWiki1.jpg",
+      "assets/images/projects/skylandersWiki2.jpg"
+    ],
+    "collaborators": [],
+    "github": "https://github.com/MatteoBernard/SkylandersWiki"
+  },
+  {
+    "name": "SkylandersApi",
+    "image": "assets/images/icons/skylandersApi.png",
+    "description": {
+      "short": "Projet personnel, API REST, sur les figurines Skylanders.",
+      "long": "J'ai réalisé ce projet pour pouvoir replonger dans une licence de mon enfance, les Skylanders. Cela m'a également permis de découvrir le framework Express, et de m'améliorer en Javascript.\n\nL'API permet de récupérer des informations sur les figurines, personnages, jeux et éléments de la licence Skylanders. Les routes renvoient des données au format JSON. On retrouve également une documentation Swagger."
+    },
+    "date": "avril 2024",
+    "duration": "~10 heures",
+    "images": [
+      "assets/images/projects/skylandersApi1.PNG",
+      "assets/images/projects/skylandersApi2.PNG"
+    ],
+    "collaborators": [],
+    "github": "https://github.com/MatteoBernard/SkylandersApi"
+  },
+  {
+    "name": "FlappyCapy",
+    "image": "assets/images/icons/flappyCapy.png",
+    "description": {
+      "short": "Projet personnel, reprise du jeu \"Flappy Bird\".",
+      "long": "J'aime beaucoup les capybaras, et je trouvais cela fun de créer un petit jeu autour d'eux. J'ai donc créé une reprise du jeu \"Flappy Bird\", avec un capybara voyageant dans l'espace, sur sa fusée.\nJ'ai réalisé ce projet en Python / Pygame, afin de découvrir la bibliothèque Pygame. Pour les sprites, je les ai trouvés sur Freepik, et modifiés sur Gimp. Le meilleur score du joueur se stocke et s'incrémente automatiquement dans un fichier au format JSON."
+    },
+    "date": "octobre 2023",
+    "duration": "~15 heures",
+    "collaborators": [],
+    "images": [
+      "assets/images/projects/flappy1.jpg",
+      "assets/images/projects/flappy2.jpg"
+    ],
+    "github": "https://github.com/MatteoBernard/FlappyCapy"
+  },
+  {
+    "name": "Statify",
+    "image": "assets/images/icons/statify.png",
+    "description": {
+      "short": "Projet personnel, application web, statistiques sur les musiques écoutées sur Spotify.",
+      "long": "J'ai réalisé ce projet pour découvrir le framework React. L'application permet de récupérer des statistiques sur le compte Spotify par l'utilisateur. On retrouve notamment les artistes les plus écoutés, les musiques les plus écoutées, les playlists de l'utilisateur et les musiques récemment écoutées.\nJ'ai utilisé l'API Spotify pour récupérer les données, et j'ai stocké les données de l'utilisateur avec React Redux. Le style est fait avec Taiwind CSS, et inspiré de la direction artistique de Spotify."
+    },
+    "date": "mai 2024",
+    "duration": "~40 heures",
+    "images": [
+      "assets/images/projects/statify1.jpg",
+      "assets/images/projects/statify2.jpg",
+        "assets/images/projects/statify3.PNG"
+    ],
+    "collaborators": [],
+    "github": "https://github.com/MatteoBernard/Statify"
+  },
+  {
+    "name": "OWLdle",
+    "image": "assets/images/icons/owldle.png",
+    "description": {
+      "short": "Projet personnel, jeu type \"Wordle\" avec pour thème Overwatch et son e-sport.",
+      "long": "J'apprécie particulièrement la scène Overwatch. Malheureusement, celle-ci est beaucoup moins vivante que celle d'autres jeux comme League of Legends, ou Valorant par exemple. J'ai donc décidé de participer, à mon échelle, à la vie de cette communauté, en créant un petit jeu sur ordinateur.\nJ'ai réalisé ce projet en Java / JavaFX, afin d'en faire une application de bureau exécutable. Je me suis aidé de SceneBuilder pour construire les vues, et ai stylisé le tout avec du CSS.\nConcernant le stockage des données à deviner, je suis passé par une base de donnée en ligne, MongoDB, afin d'éviter de devoir re-sortir une version du jeu à chaque transfert de joueur / ajout de nouveau héros.\nLe projet se compose pour l'instant de trois vues : une pour l'accueil, et une pour chaque mode de jeu."
+    },
+    "date": "septembre 2023",
+    "duration": "~25 heures",
+    "images": [
+      "assets/images/projects/owldle1.PNG",
+      "assets/images/projects/owldle2.PNG",
+      "assets/images/projects/owldle3.PNG"
+    ],
+    "collaborators": [],
+    "github": "https://github.com/MatteoBernard/OWLdle"
+  },
+  {
+    "name": "RayTracer",
+    "image": "assets/images/icons/rayTracer.png",
+    "description": {
+      "short": "Projet universitaire, générateur d'image avec raytracing.",
+      "long": "Ce projet a été réalisé dans le cadre de la SAE S3.A.01. Le but était de créer une librairie générant des images avec raytracing. D'abord, il y a lecture d'un fichier descriptif de la scène, en suite, l'image est générée en utilisant différentes méthodes et classes. Enfin, l'image est créée et disponible au téléchargement. Le calcul des pixels se fait par calculs de vecteurs et de points, en prenant en compte la caméra, les lumières et les différentes formes.\nLe projet a été réalisé en Java. L'implémentation de patrons de conception était centrale : états, singletons, décorateurs, builders..\nLe fichier de description possède sa propre synthaxe, celui-ci est lu par un Scanner, puis les informations sont retranscrites pour créer l'image."
+    },
+    "date": "novembre 2023",
+    "duration": "~40 heures",
+    "images": [
+      "assets/images/projects/raytracing1.png",
+      "assets/images/projects/raytracing2.png"
+    ],
+    "collaborators": [
+      {
+        "name": "DELCAMBRE Jean-Alexis",
+        "linkedin": "https://www.linkedin.com/in/jean-alexis-delcambre/"
+      },
+      {
+        "name": "POTEAU Axel",
+        "linkedin": "https://www.linkedin.com/in/axel-poteau/"
+      },
+      {
+        "name": "CRAUSER Antoine",
+        "linkedin": "https://www.linkedin.com/in/antoine-crauser/"
+      }
+    ],
+    "github": null
+  },
+  {
+    "name": "DawgsGatitosAndBirdies",
+    "image": "assets/images/icons/dgb.png",
+    "description": {
+      "short": "Projet personnel, application mobile hybride, afficheur d'images d'animaux.",
+      "long": "J'ai réalisé ce projet afin de m'entraîner sur une technologie vue en cours : Ionic. J'ai utilisé également du Typescript, du CSS et du Angular. Une version Android est disponible en release sur Github.\nL'application permet d'afficher des images d'animaux mignons, de manière aléatoire en faisant des appels sur cette API. Les animaux affichables sont les chats, les oiseaux et les chiens de race shiba."
+    },
+    "date": "avril 2024",
+    "duration": "~10 heures",
+    "images": [
+      "assets/images/projects/dgb1.jpg",
+      "assets/images/projects/dgb2.jpg"
+    ],
+    "collaborators": [],
+    "github": "https://github.com/MatteoBernard/DawgsGatitosAndBirdies"
+  },
+  {
+    "name": "Dive'in",
+    "image": "assets/images/icons/divein.png",
+    "description": {
+      "short": "Projet universitaire, site web statique pour une entreprise fictive.",
+      "long": "Ce projet a été réalisé dans le cadre des SAEs S1.05 et S1.06, par groupe de 3. Le but était de créer un site web statique, pour une entreprise fictive basée sur l'évènementiel.\nNous devions utiliser uniquement du HTML et du CSS, avec Visual Studio Code. Nous avons mis en place différents éléments clés des pages web : barre de navigation, footer, header, articles, sections.."
+    },
+    "date": "novembre 2022",
+    "duration": "~10 heures",
+    "images": [
+      "assets/images/projects/divein1.png",
+      "assets/images/projects/divein2.png"
+    ],
+    "collaborators": [
+      {
+        "name": "TOURNANT Alex",
+        "linkedin": "https://www.linkedin.com/in/alex-tournant/"
+      },
+      {
+        "name": "FASQUEL Théo",
+        "linkedin": "https://www.linkedin.com/in/theo-fasquel-104371257/"
+      }
+    ],
+    "github": "https://github.com/MatteoBernard/Dive-in"
+  },
+  {
+    "name": "JADex",
+    "image": "assets/images/icons/jadex.png",
+    "description": {
+      "short": "Projet universitaire, pages web dynamiques avec capture fictive de Pokémons.",
+      "long": "Ce projet a été réalisé dans le cadre du cours de MSI (Management des systèmes d'information). Le but était de créer un projet, en respectant les différentes étapes de développement et de gestion de projet : dailys, sprints, comptes rendus, issues, issue boards...\nLe projet a été réalisé en Python / Flask, afin de gérer facilement les pages web. Nous avons également utilisé une base de données sqlite pour stocker les Pokémons attrapés, ainsi que différents outils front : Bulma, Bootstrap et Figma."
+    },
+    "date": "décembre 2023",
+    "duration": "~15 heures",
+    "images": [
+      "assets/images/projects/jadex1.png",
+      "assets/images/projects/jadex2.png"
+    ],
+    "collaborators": [
+      {
+        "name": "POTEAU Axel",
+        "linkedin": "https://www.linkedin.com/in/axel-poteau/"
+      },
+      {
+        "name": "TOURNANT Alex",
+        "linkedin": "https://www.linkedin.com/in/alex-tournant/"
+      },
+      {
+        "name": "BALLET Dylan",
+        "linkedin": "https://www.linkedin.com/in/dylan-ballet/"
+      }
+    ],
+    "github": "https://github.com/MatteoBernard/jadex"
+  },
+  {
+    "name": "Flatcraft",
+    "image": "assets/images/icons/flatcraft.png",
+    "description": {
+      "short": "Projet universitaire, reprise du jeu \"Minecraft\" en 2D.",
+      "long": "Ce projet a été réalisé dans le cadre du cours de QDev (Qualité de développement). Le but est de créer un jeu inspiré de \"Minecraft\", tout cela en 2D. Il y a les trois dimensions de Minecraft, un inventaire, des blocs à miner et à utiliser pour différents crafts, ainsi que différents biomes et structures de terrain.\nLe projet a été réalisé en Java, et l'affichage se fait en JavaFX.. L'implantation de patrons de conception était centrale : fabriques abstraites, états.."
+    },
+    "date": "janvier 2024",
+    "duration": "~30 heures",
+    "images": [
+      "assets/images/projects/flatcraft1.png",
+      "assets/images/projects/flatcraft2.png"
+    ],
+    "collaborators": [
+      {
+        "name": "POTEAU Axel",
+        "linkedin": "https://www.linkedin.com/in/axel-poteau/"
+      },
+      {
+        "name": "TOURNANT Alex",
+        "linkedin": "https://www.linkedin.com/in/alex-tournant/"
+      },
+      {
+        "name": "BALLET Dylan",
+        "linkedin": "https://www.linkedin.com/in/dylan-ballet/"
+      }
+    ],
+    "github": null
+  }
+]

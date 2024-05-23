@@ -1,0 +1,20 @@
+{
+    "name": "Bernard Matteo",
+    "job": "Développeur fullstack junior",
+    "image": "assets/images/aboutme/pfp.jpg",
+    "descriptions": {
+        "short": "Matteo, 20 ans, développeur fullstack junior.\n Étudiant en deuxième année de BUT Informatique à l'IUT de Lens. Développeur alternant chez Lenrek Informatique.",
+        "long": "Je m'appelle Matteo, j'ai 20 ans et je suis étudiant en deuxième année de BUT Informatique à l'IUT de Lens. Je suis actuellement en alternance chez Lenrek Informatique en tant que développeur. \n J'aime découvrir et apprendre de nouvelles technologies, en ce moment, je me forme plus particulièrement sur le développement web, en TypeScript notamment. Je compte me former plus tard sur le développement plus bas niveau, en C++ et/ou C#."
+    },
+    "educationImg": "assets/images/aboutme/educationFr.png",
+    "otherInfos": "J'aime jouer aux jeux vidéos, mes favoris sont Overwatch 2, Hollow Knight et Subnautica. J'aime également les nouvelles technologies, et le développement. \n J'aime écouter toutes sortes de musiques. \n J'ai comme langue maternelle le français, et j'ai un bon niveau d'anglais.",
+    "contact": {
+        "linkedin": "https://www.linkedin.com/in/matt%C3%A9o-bernard-00137a255/",
+        "github": "https://github.com/MatteoBernard",
+        "email": "bernard.matteo.travail@gmail.com"
+    },
+    "links": {
+        "lenrek":  "https://lenrek.fr/",
+        "iutlens": "http://www.iut-lens.univ-artois.fr/"
+    }
+}

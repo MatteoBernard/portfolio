@@ -1,0 +1,212 @@
+[
+  {
+    "name": "SkylandersWiki",
+    "image": "assets/images/icons/skylandersWiki.png",
+    "description": {
+      "short": "Personal project, hybrid mobile app, Skylanders licence wiki.",
+      "long": "I carried out this project to train myself in the creation of hybrid mobile applications, but above all to discover the React Native framework, and to replenish my knowledge of Typescript.\nThe application is a wiki on Skylanders figures, it allows you to consult the different characters, elements, games and figurines in the license.\nI used an API that I also created. The API calls are made each time a new page is loaded. There is also a filtering system based on different parameters."
+    },
+    "date": "April 2024",
+    "duration": "~15 hours",
+    "images": [
+      "assets/images/projects/skylandersWiki1.jpg",
+      "assets/images/projects/skylandersWiki2.jpg"
+    ],
+    "collaborators": [],
+    "github": "https://github.com/MatteoBernard/SkylandersWiki"
+  },
+  {
+    "name": "SkylandersApi",
+    "image": "assets/images/icons/skylandersApi.png",
+    "description": {
+      "short": "Personal project, REST API, on Skylanders figures.",
+      "long": "I carried out this project to be able to dive back into a license from my childhood, Skylanders. It also allowed me to discover the Express framework, and to improve in Javascript.\n\nThe API allows you to retrieve information on figurines, characters, games and elements of the Skylanders license. Routes return data in JSON format. We also find Swagger documentation."
+    },
+    "date": "April 2024",
+    "duration": "~10 hours",
+    "images": [
+      "assets/images/projects/skylandersApi1.PNG",
+      "assets/images/projects/skylandersApi2.PNG"
+    ],
+    "collaborators": [],
+    "github": "https://github.com/MatteoBernard/SkylandersApi"
+  },
+  {
+    "name": "FlappyCapy",
+    "image": "assets/images/icons/flappyCapy.png",
+    "description": {
+      "short": "Personal project, cover of the game \"Flappy Bird\".",
+      "long": "I really like capybaras, and I thought it would be fun to create a little game around them. So I created a cover of the game \"Flappy Bird\", with a capybara traveling in the space, on his rocket.\nI carried out this project in Python / Pygame, in order to discover the Pygame library. For the sprites, I found them on Freepik, and modified on Gimp The player's best score is stored and s. 'automatically increments in a JSON format file."
+    },
+    "date": "October 2023",
+    "duration": "~15 hours",
+    "collaborators": [],
+    "images": [
+      "assets/images/projects/flappy1.jpg",
+      "assets/images/projects/flappy2.jpg"
+    ],
+    "github": "https://github.com/MatteoBernard/FlappyCapy"
+  },
+  {
+    "name": "Statify",
+    "image": "assets/images/icons/statify.png",
+    "description": {
+      "short": "Personal project, web application, statistics on music listened to on Spotify.",
+      "long": "I carried out this project to discover the React framework. The application allows you to retrieve statistics on the user's Spotify account. We find in particular the most listened to artists, the most listened to music, the user's playlists and recently listened to music.\nI used the Spotify API to retrieve the data, and I stored the user's data with React Redux The styling is done with Taiwind CSS, and inspired. of the artistic direction of Spotify."
+    },
+    "date": "May 2024",
+    "duration": "~40 hours",
+    "images": [
+      "assets/images/projects/statify1.jpg",
+      "assets/images/projects/statify2.jpg",
+      "assets/images/projects/statify3.PNG"
+    ],
+    "collaborators": [],
+    "github": "https://github.com/MatteoBernard/Statify"
+  },
+  {
+    "name": "OWLdle",
+    "image": "assets/images/icons/owldle.png",
+    "description": {
+      "short": "Personal project, \"Wordle\" type game with the theme of Overwatch and its e-sport.",
+      "long": "I particularly appreciate the Overwatch scene. Unfortunately, it is much less lively than that of other games like League of Legends, or Valorant for example. So I decided to participate, on my own scale, to the life of this community, by creating a small computer game.\nI carried out this project in Java / JavaFX, in order to make it an executable desktop application. I used SceneBuilder to build the views, and. I styled everything with CSS.\nConcerning the storage of the data to be guessed, I used an online database, MongoDB, in order to avoid having to re-release a version of the game each time a player is transferred/added new hero.\nThe project currently consists of three views: one for the reception, and one for each game mode."
+    },
+    "date": "September 2023",
+    "duration": "~25 hours",
+    "images": [
+      "assets/images/projects/owldle1.PNG",
+      "assets/images/projects/owldle2.PNG",
+      "assets/images/projects/owldle3.PNG"
+    ],
+    "collaborators": [],
+    "github": "https://github.com/MatteoBernard/OWLdle"
+  },
+  {
+    "name": "RayTracer",
+    "image": "assets/images/icons/rayTracer.png",
+    "description": {
+      "short": "University project, image generator with raytracing.",
+      "long": "This project was carried out within the framework of SAE S3.A.01. The goal was to create a library generating images with raytracing. First, a descriptive file of the scene, then the image is generated using different methods and classes Finally, the image is created and available for download. The calculation of pixels is done by calculations of vectors and points, taking into account the camera. the lights and the different shapes.\nThe project was carried out in Java The implementation of design patterns was central: states, singletons, decorators, builders..\nThe description file has its own syntax, this is read. by a Scanner, then the information is transcribed to create the image."
+    },
+    "date": "November 2023",
+    "duration": "~40 hours",
+    "images": [
+      "assets/images/projects/raytracing1.png",
+      "assets/images/projects/raytracing2.png"
+    ],
+    "collaborators": [
+      {
+        "name": "DELCAMBRE Jean-Alexis",
+        "linkedin": "https://www.linkedin.com/in/jean-alexis-delcambre/"
+      },
+      {
+        "name": "POTEAU Axel",
+        "linkedin": "https://www.linkedin.com/in/axel-poteau/"
+      },
+      {
+        "name": "CRAUSER Antoine",
+        "linkedin": "https://www.linkedin.com/in/antoine-crauser/"
+      }
+    ],
+    "github": null
+  },
+  {
+    "name": "DawgsGatitosAndBirdies",
+    "image": "assets/images/icons/dgb.png",
+    "description": {
+      "short": "Personal project, hybrid mobile application, animal image display.",
+      "long": "I carried out this project to train on a technology seen in class: Ionic. I also used Typescript, CSS and Angular. An Android version is available for release on Github.\n The application allows you to display images of cute animals randomly by making calls to this API. The displayable animals are cats, birds and shiba dogs."
+    },
+    "date": "April 2024",
+    "duration": "~10 hours",
+    "images": [
+      "assets/images/projects/dgb1.jpg",
+      "assets/images/projects/dgb2.jpg"
+    ],
+    "collaborators": [],
+    "github": "https://github.com/MatteoBernard/DawgsGatitosAndBirdies"
+  },
+  {
+    "name": "Dive'in",
+    "image": "assets/images/icons/divein.png",
+    "description": {
+      "short": "University project, static website for a fictional company.",
+      "long": "This project was carried out within the framework of SAEs S1.05 and S1.06, in groups of 3. The goal was to create a static website, for a fictitious company based on events.\nWe had to use only HTML and CSS, with Visual Studio Code We implemented different key elements of the web pages: navigation bar, footer, header, articles, sections.."
+    },
+    "date": "November 2022",
+    "duration": "~10 hours",
+    "images": [
+      "assets/images/projects/divein1.png",
+      "assets/images/projects/divein2.png"
+    ],
+    "collaborators": [
+      {
+        "name": "TOURNANT Alex",
+        "linkedin": "https://www.linkedin.com/in/alex-tournant/"
+      },
+      {
+        "name": "FASQUEL Théo",
+        "linkedin": "https://www.linkedin.com/in/theo-fasquel-104371257/"
+      }
+    ],
+    "github": "https://github.com/MatteoBernard/Dive-in"
+  },
+  {
+    "name": "JADex",
+    "image": "assets/images/icons/jadex.png",
+    "description": {
+      "short": "University project, dynamic web pages with fictional capture of Pokémon.",
+      "long": "This project was carried out as part of the MSI (Information Systems Management) course. The goal was to create a project, respecting the different stages of development and project management: dailys, sprints , reports, issues, issue boards...\nThe project was carried out in Python / Flask, in order to easily manage the web pages. We also used a sqlite database to store the Pokémon caught, as well as different front tools. : Bulma, Bootstrap and Figma."
+    },
+    "date": "December 2023",
+    "duration": "~15 hours",
+    "images": [
+      "assets/images/projects/jadex1.png",
+      "assets/images/projects/jadex2.png"
+    ],
+    "collaborators": [
+      {
+        "name": "POTEAU Axel",
+        "linkedin": "https://www.linkedin.com/in/axel-poteau/"
+      },
+      {
+        "name": "TOURNANT Alex",
+        "linkedin": "https://www.linkedin.com/in/alex-tournant/"
+      },
+      {
+        "name": "BALLET Dylan",
+        "linkedin": "https://www.linkedin.com/in/dylan-ballet/"
+      }
+    ],
+    "github": "https://github.com/MatteoBernard/jadex"
+  },
+  {
+    "name": "Flatcraft",
+    "image": "assets/images/icons/flatcraft.png",
+    "description": {
+      "short": "University project, replay of the game \"Minecraft\" in 2D.",
+      "long": "This project was carried out as part of the QDev (Development Quality) course. The goal is to create a game inspired by \"Minecraft\", all in 2D. There are the three dimensions of Minecraft, an inventory, blocks to mine and use for different crafts, as well as different biomes and terrain structures.\nThe project was carried out in Java, and the display is done in JavaFX.. The implementation of game patterns design was central: abstract factories, states.."
+    },
+    "date": "January 2024",
+    "duration": "~30 hours",
+    "images": [
+      "assets/images/projects/flatcraft1.png",
+      "assets/images/projects/flatcraft2.png"
+    ],
+    "collaborators": [
+      {
+        "name": "POTEAU Axel",
+        "linkedin": "https://www.linkedin.com/in/axel-poteau/"
+      },
+      {
+        "name": "TOURNANT Alex",
+        "linkedin": "https://www.linkedin.com/in/alex-tournant/"
+      },
+      {
+        "name": "BALLET Dylan",
+        "linkedin": "https://www.linkedin.com/in/dylan-ballet/"
+      }
+    ],
+    "github": null
+  }
+]
