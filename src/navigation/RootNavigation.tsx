@@ -6,7 +6,7 @@ export const Router = () => {
         <Routes>
             <Route path={"/skills"} element={<Skills />} />
             <Route path={"/projects"} element={<Projects />} />
-            <Route path={"/project/:projectName"} element={<ShowProject />} />
+            <Route path={"/projects/:projectName"} element={<ShowProject />} />
             <Route path={"/"} element={<Dashboard />} />
         </Routes>
     );

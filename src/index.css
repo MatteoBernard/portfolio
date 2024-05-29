@@ -1,3 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .header-link {
+        @apply hover:border-b-2 hover:border-b-purple-400 hover:text-purple-400 ;
+    }
+
+    .header-flag {
+        @apply w-8 h-8 rounded-full;
+    }
+
+    .contact-img-wrapper {
+        @apply w-10 h-10 rounded-full border-4 border-purple-400 border-opacity-80 shadow-sm shadow-purple-900 flex items-center justify-center;
+    }
+
+    .contact-img {
+        @apply w-1/2 text-purple-400 fill-current ;
+    }
+
+    .shadow-all-around {
+        box-shadow: 0 0 8px 8px mediumpurple;
+    }
+
+    .section-title {
+        @apply text-center text-3xl font-bold text-purple-400 ;
+    }
+
+    .section-subtitle {
+        @apply text-center text-lg font-bold border-b-2 border-b-zinc-800 hover:border-b-purple-400 hover:text-purple-400 ;
+    }
+}

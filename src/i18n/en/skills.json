@@ -2,41 +2,65 @@
   {
     "name": "TypeScript",
     "image": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
-    "description": "Great mastery of language, its specificities and good practices. \n Frameworks and tools: React, React Native, Angular, Ionic"
+    "description": [
+        "Great mastery of language, its specificities and good practices.",
+        "Frameworks and tools: React, React Native, Angular, Ionic"
+    ]
   },
   {
     "name": "JavaScript",
     "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
-    "description": "Sufficient mastery of language. \n Frameworks and tools: Express."
+    "description": [
+        "Great mastery of language, its specificities and good practices.",
+        "Frameworks and tools: React, React Native, Angular, Ionic"
+    ]
   },
   {
     "name": "Java",
     "image": "https://upload.wikimedia.org/wikipedia/fr/2/2e/Java_Logo.svg",
-    "description": "Great mastery of the language, its syntax, best practices and the concept of OOP. \n Frameworks and tools: JavaFX, SceneBuilder."
+    "description": [
+        "Great mastery of the language, its syntax, best practices and the concept of OOP.",
+        "Frameworks and tools: JavaFX, SceneBuilder."
+    ]
   },
   {
     "name": "Python",
     "image": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
-    "description": "Great mastery of language and syntax. \n Frameworks and tools: Pygame."
+    "description": [
+        "Great mastery of language and syntax.",
+        "Frameworks and tools: Django, Flask."
+    ]
   },
   {
     "name": "PHP",
     "image": "https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg",
-    "description": "Great mastery of language. \n Frameworks and tools: Laravel, Blade."
+    "description": [
+        "Great mastery of language.",
+        "Frameworks and tools: Laravel, Blade."
+    ]
   },
   {
     "name": "CSS",
     "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
-    "description": "Good control of properties and selectors. \n Frameworks and tools: Tailwind, Bootstrap."
+    "description": [
+        "Good control of properties and selectors.",
+        "Frameworks and tools: Tailwind, Bootstrap."
+    ]
   },
   {
     "name": "SQL",
     "image": "https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg",
-    "description": "Correct control of queries, triggers, views. \n DBMS: PostgreSQL."
+    "description": [
+        "Correct control of queries, triggers, views.",
+        "DBMS: PostgreSQL."
+    ]
   },
   {
     "name": "Git",
     "image": "https://www.vectorlogo.zone/util/preview?image=/logos/git-scm/git-scm-icon.svg",
-    "description": "Proficiency with basic controls and best practices. \n Tools: GitHub, GitLab."
+    "description": [
+        "Proficiency with basic controls and best practices.",
+        "Tools: GitHub, GitLab."
+    ]
   }
 ]

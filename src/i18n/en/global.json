@@ -1,0 +1,15 @@
+{
+  "firstName": "Matteo",
+  "lastName": "Bernard",
+  "home": "Home",
+  "about": "About",
+  "skills": "Skills",
+  "projects": "Projects",
+  "footer": {
+    "top": "© 2024 Bernard Mattéo. All rights reserved.",
+    "bottom": "Hosted on GitHub Pages."
+  },
+  "hi": "Hi \uD83D\uDC4B, I'm",
+  "seeMore": "See more",
+  "myProjects": "My projects"
+}

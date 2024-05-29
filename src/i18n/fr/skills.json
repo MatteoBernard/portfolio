@@ -2,41 +2,65 @@
   {
     "name": "TypeScript",
     "image": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
-    "description": "Maîtrise appronfondie du langage, de ses spécificités et de ses bonnes pratiques. \n Frameworks et outils : React, React Native, Angular, Ionic"
+    "description": [
+        "Maîtrise approfondie du langage, de ses spécificités et de ses bonnes pratiques.",
+        "Frameworks et outils : React, React Native, Angular, Ionic"
+    ]
   },
   {
     "name": "JavaScript",
     "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
-    "description": "Maîtrise suffisante du langage. \n Frameworks et outils : Express."
+    "description": [
+        "Maîtrise approfondie du langage, de ses spécificités et de ses bonnes pratiques.",
+        "Frameworks et outils : React, React Native, Angular, Ionic"
+    ]
   },
   {
     "name": "Java",
     "image": "https://upload.wikimedia.org/wikipedia/fr/2/2e/Java_Logo.svg",
-    "description": "Maîtrise approfondie du langage, de sa syntaxe, des bonnes pratiques et du concept de POO. \n Frameworks et outils : JavaFX, SceneBuilder."
+    "description": [
+        "Maîtrise approfondie du langage, de sa syntaxe, des bonnes pratiques et du concept de POO.",
+        "Frameworks et outils : JavaFX, SceneBuilder."
+    ]
   },
   {
     "name": "Python",
     "image": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
-    "description": "Maîtrise approfondie du langage et de sa syntaxe. \n Frameworks et outils : Pygame."
+    "description": [
+        "Maîtrise approfondie du langage et de sa syntaxe.",
+        "Frameworks et outils : Pygame."
+    ]
   },
   {
     "name": "PHP",
     "image": "https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg",
-    "description": "Maîtrise suffisante du langage. \n Frameworks et outils : Laravel, Blade."
+    "description": [
+        "Maîtrise suffisante du langage.",
+        "Frameworks et outils : Laravel, Blade."
+    ]
   },
   {
     "name": "CSS",
     "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
-    "description": "Bonne maîtrise des propriétés et des sélecteurs. \n Frameworks et outils : Tailwind, Bootstrap."
+    "description": [
+        "Bonne maîtrise des propriétés et des sélecteurs.",
+        "Frameworks et outils : Tailwind, Bootstrap."
+    ]
   },
   {
     "name": "SQL",
     "image": "https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg",
-    "description": "Maîtrise correcte des requêtes, triggers, vues. \n SGBD : PostgreSQL."
+    "description": [
+        "Maîtrise correcte des requêtes, triggers, vues.",
+        "SGBD : PostgreSQL."
+    ]
   },
   {
     "name": "Git",
     "image": "https://www.vectorlogo.zone/util/preview?image=/logos/git-scm/git-scm-icon.svg",
-    "description": "Maîtrise des commandes de base et des bonnes pratiques. \n Outils : GitHub, GitLab."
+    "description": [
+        "Maîtrise des commandes de base et des bonnes pratiques.",
+        "Outils : GitHub, GitLab."
+    ]
   }
 ]

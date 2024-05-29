@@ -1,0 +1,13 @@
+{
+  "home": "Accueil",
+  "about": "À propos",
+  "skills": "Compétences",
+  "projects": "Projets",
+  "footer": {
+    "top": "© 2024 Bernard Mattéo. Tous droits réservés.",
+    "bottom": "Hébergé sur Github Pages."
+  },
+  "hi": "Salut \uD83D\uDC4B, c'est",
+  "seeMore": "Voir plus",
+  "myProjects": "Mes projets"
+}

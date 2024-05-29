@@ -6,6 +6,8 @@ import skills_en from "./en/skills.json";
 import skills_fr from "./fr/skills.json";
 import projects_en from "./en/projects.json";
 import projects_fr from "./fr/projects.json";
+import global_en from "./en/global.json";
+import global_fr from "./fr/global.json";
 
 const browserLanguage = navigator.language.slice(0, 2);
 
@@ -17,11 +19,13 @@ i18n
         fallbackLng: 'en',
         resources: {
             en: {
+                global: global_en,
                 aboutme: aboutme_en,
                 skills: skills_en,
                 projects: projects_en,
             },
             fr: {
+                global: global_fr,
                 aboutme: aboutme_fr,
                 skills: skills_fr,
                 projects: projects_fr,
