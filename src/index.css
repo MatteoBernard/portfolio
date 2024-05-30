@@ -26,10 +26,10 @@
     }
 
     .section-title {
-        @apply text-center text-3xl font-bold text-purple-400 ;
+        @apply text-center text-3xl font-bold text-purple-400 m-3 ;
     }
 
     .section-subtitle {
-        @apply text-center text-lg font-bold border-b-2 border-b-zinc-800 hover:border-b-purple-400 hover:text-purple-400 ;
+        @apply text-center text-lg font-bold border-b-2 border-b-zinc-800 hover:border-b-purple-400 hover:text-purple-400 m-2 ;
     }
 }

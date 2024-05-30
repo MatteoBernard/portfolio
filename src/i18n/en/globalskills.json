@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Web Development",
+    "image": "assets/images/icons/web_icon.png",
+    "description": [
+      "Rest APIs, API calls, Styling, Responsive Design.",
+      "Frontend : TypeScript, React, Tailwind, Angular.",
+      "Backend : Laravel, Express."
+    ]
+  },
+  {
+    "name": "Mobile Development",
+    "image": "assets/images/icons/mobile_icon.png",
+    "description": [
+      "Hybrid App Development.",
+      "Android Studio, React Native, Ionic."
+    ]
+  },
+  {
+    "name": "Desktop Application Development",
+    "image": "assets/images/icons/desktop_icon.png",
+    "description": [
+      "Cross Platform Development.",
+      "Electron, JavaFX, Pygame."
+    ]
+  },
+  {
+    "name": "Database Management",
+    "image": "assets/images/icons/db_icon.png",
+    "description": [
+      "View, Functions, Triggers.",
+      "SQL, PostgreSQL."
+    ]
+  }
+]

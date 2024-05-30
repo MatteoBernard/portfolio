@@ -1,4 +1,4 @@
-import {AboutMe, Project} from "../types";
+import {AboutMe, GlobalSkill, Project} from "../types";
 import i18n from "i18next";
 import Template from "./Template";
 import {useTranslation} from "react-i18next";
@@ -12,6 +12,7 @@ export const Dashboard = () => {
     const { t } = useTranslation();
     const aboutMe = i18n.getResourceBundle(i18n.language, "aboutme") as AboutMe;
     const projects = i18n.getResourceBundle(i18n.language, "projects").slice(0, 4) as Project[];
+    const globalskills = i18n.getResourceBundle(i18n.language, "globalskills") as GlobalSkill[];
     const navigate = useNavigate();
 
     return (
@@ -72,7 +73,7 @@ export const Dashboard = () => {
                         </div>
                     </div>
                     <div className={clsx(
-                        "h-3/5 w-3/5 md:h-2/5 md:w-2/5 lg:h-1/5 lg:w-1/5",
+                        "h-3/5 w-3/5 md:h-60 md:w-60 lg:h-80 lg:w-80",
                         "mb-12"
                     )}>
                         <img src={pfp} className={clsx(
@@ -85,6 +86,25 @@ export const Dashboard = () => {
             </MainContainer>
 
             <MainContainer transparent={false}>
+                <h1 className={"section-title"}>{t("global:mySkills")}</h1>
+
+                <div className={clsx(
+                    "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-1"
+                )}>
+                    {
+                        globalskills.map((skill) => (
+                            <MainCard title={skill.name} image={skill.image} imageFromAssets={true} imageBackground={true}
+                                      description={skill.description}/>
+                        ))
+                    }
+                </div>
+
+                <button onClick={() => {navigate("/skills")}}>
+                    <p className={"section-subtitle"}>{t("global:seeMore")}</p>
+                </button>
+            </MainContainer>
+
+            <MainContainer transparent={false}>
                 <h1 className={"section-title"}>{t("global:myProjects")}</h1>
 
                 <div className={clsx(
@@ -92,7 +112,7 @@ export const Dashboard = () => {
                 )}>
                     {
                         projects.map((project) => (
-                            <MainCard title={project.name} image={project.image}
+                            <MainCard title={project.name} image={project.image} imageFromAssets={true}
                                       description={[project.description.short]} onClick={() => {navigate("/projects/" + project.name)}}/>
                         ))
                     }

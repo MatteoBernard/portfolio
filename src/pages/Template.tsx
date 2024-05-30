@@ -105,7 +105,7 @@ export const Template = ({children, title}: TemplateProps) => {
             <footer className={clsx(
                 "flex justify-center items-center flex-col gap-2",
                 "p-6",
-                "text-center",
+                "text-center text-sm md:text-lg",
                 "bg-zinc-950",
                 "bottom-0"
             )}>

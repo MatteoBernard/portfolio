@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Développement Web",
+    "image": "assets/images/icons/web_icon.png",
+    "description": [
+      "API REST, Appels API, Style Responsive.",
+      "Frontend : TypeScript, React, Tailwind, Angular.",
+      "Backend : Laravel, Express."
+    ]
+  },
+  {
+    "name": "Développement Mobile",
+    "image": "assets/images/icons/mobile_icon.png",
+    "description": [
+      "Applications hybrides.",
+      "Android Studio, React Native, Ionic."
+    ]
+  },
+  {
+    "name": "Développement d'applications de bureau",
+    "image": "assets/images/icons/desktop_icon.png",
+    "description": [
+      "Développement d'applications de bureau multiplateformes.",
+      "Electron, JavaFX, Pygame."
+    ]
+  },
+  {
+    "name": "Gestion de Base de Données",
+    "image": "assets/images/icons/db_icon.png",
+    "description": [
+      "Vues, Fonctions, Triggers.",
+      "SQL, PostgreSQL."
+    ]
+  }
+]
