@@ -3,7 +3,7 @@ export interface Project {
     image: string;
     description: {
         short: string;
-        long: string;
+        long: string[];
     }
     date: string;
     duration: string;
