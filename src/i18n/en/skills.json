@@ -4,15 +4,15 @@
     "image": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
     "description": [
         "Great mastery of language, its specificities and good practices.",
-        "Frameworks and tools: React, React Native, Angular, Ionic"
+        "Frameworks and tools: React, React Native, Angular, Ionic."
     ]
   },
   {
     "name": "JavaScript",
     "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
     "description": [
-        "Great mastery of language, its specificities and good practices.",
-        "Frameworks and tools: React, React Native, Angular, Ionic"
+        "Sufficient mastery of language and its specificities.",
+        "Frameworks and tools: Express."
     ]
   },
   {
@@ -28,7 +28,7 @@
     "image": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
     "description": [
         "Great mastery of language and syntax.",
-        "Frameworks and tools: Django, Flask."
+        "Frameworks and tools: Pygame."
     ]
   },
   {
@@ -57,7 +57,7 @@
   },
   {
     "name": "Git",
-    "image": "https://www.vectorlogo.zone/util/preview?image=/logos/git-scm/git-scm-icon.svg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg",
     "description": [
         "Proficiency with basic controls and best practices.",
         "Tools: GitHub, GitLab."

@@ -4,15 +4,15 @@
     "image": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
     "description": [
         "Maîtrise approfondie du langage, de ses spécificités et de ses bonnes pratiques.",
-        "Frameworks et outils : React, React Native, Angular, Ionic"
+        "Frameworks et outils : React, React Native, Angular, Ionic."
     ]
   },
   {
     "name": "JavaScript",
     "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
     "description": [
-        "Maîtrise approfondie du langage, de ses spécificités et de ses bonnes pratiques.",
-        "Frameworks et outils : React, React Native, Angular, Ionic"
+        "Maîtrise correcte du langage et de ses spécificités.",
+        "Frameworks et outils : Express."
     ]
   },
   {
@@ -33,7 +33,7 @@
   },
   {
     "name": "PHP",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/31/Webysther_20160423_-_Elephpant.svg",
     "description": [
         "Maîtrise suffisante du langage.",
         "Frameworks et outils : Laravel, Blade."
@@ -57,7 +57,7 @@
   },
   {
     "name": "Git",
-    "image": "https://www.vectorlogo.zone/util/preview?image=/logos/git-scm/git-scm-icon.svg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg",
     "description": [
         "Maîtrise des commandes de base et des bonnes pratiques.",
         "Outils : GitHub, GitLab."
