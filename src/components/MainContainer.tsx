@@ -10,7 +10,7 @@ export const MainContainer = ({children, transparent}: MainContainerProps) => {
     return (
        <div className={clsx(
            "text-center",
-           "mx-auto my-6 md:my-12 lg:my-16 p-4 lg:p-6",
+           "mx-auto my-6 md:my-12 p-4 lg:p-6",
            "w-9/12",
            transparent ?
                "bg-zinc-900 " :

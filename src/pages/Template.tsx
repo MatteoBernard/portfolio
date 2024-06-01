@@ -21,7 +21,9 @@ export const Template = ({children, title}: TemplateProps) => {
     }
 
     return (
-        <div>
+        <div className={clsx(
+            "flex flex-col min-h-screen"
+        )}>
             <header className={clsx(
                 "flex justify-around items-center",
                 "p-6 h-16",
@@ -30,12 +32,12 @@ export const Template = ({children, title}: TemplateProps) => {
             )}>
                 <p className={clsx(
                     "text-xl",
-                )}>{t('global:lastName')} {t('global:firstName')}</p>
+                )}>{t('global:lastName')} <span className={"text-purple-400"}>{t('global:firstName')}</span></p>
 
                 <div className={clsx(
                     "flex justify-around gap-2 items-center",
                     "w-1/3 ",
-                    "sm:hidden",
+                    "lg:hidden",
                 )}>
                     <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
                         {
@@ -63,13 +65,13 @@ export const Template = ({children, title}: TemplateProps) => {
                         "flex flex-col items-center justify-center",
                         "p-6 space-y-4",
                         "bg-zinc-950 rounded-bl-md",
-                        "sm:block",
+                        "lg:hidden",
                     )}>
                         <Link to={"/"} className={"header-link"}>{t('global:home')}</Link>
                         <Link to={"/skills"} className={"header-link"}>{t('global:skills')}</Link>
                         <Link to={"/projects"} className={"header-link"}>{t('global:projects')}</Link>
 
-                        { i18n.language === 'en' ?
+                        {i18n.language === 'en' ?
                             <button onClick={() => changeLanguage('fr')}>
                                 <img src={frFlag} className={"header-flag"}/>
                             </button> :
@@ -82,7 +84,7 @@ export const Template = ({children, title}: TemplateProps) => {
 
                 {!isMenuOpen && (
                     <div className={clsx(
-                        "hidden sm:flex justify-around gap-2 items-center",
+                        "hidden lg:flex justify-around gap-2 items-center",
                         "w-1/3",
                     )}>
                         <Link to={"/"} className={"header-link"}>{t('global:home')}</Link>
@@ -102,12 +104,12 @@ export const Template = ({children, title}: TemplateProps) => {
 
             </header>
             {children}
+            <div className="flex-grow"/>
             <footer className={clsx(
                 "flex justify-center items-center flex-col gap-2",
                 "p-6",
                 "text-center text-sm md:text-lg",
                 "bg-zinc-950",
-                "bottom-0"
             )}>
                 <p>{t('global:footer.top')}</p>
                 <p>{t('global:footer.bottom')}</p>

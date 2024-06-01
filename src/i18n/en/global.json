@@ -12,5 +12,9 @@
   "hi": "Hi \uD83D\uDC4B, I'm",
   "seeMore": "See more",
   "myProjects": "My projects",
-  "mySkills": "My skills"
+  "mySkills": "My skills",
+  "404": "Oops! Page not found.",
+  "project": "Project",
+  "collaborators": "Collaborators",
+  "projectImages": "Project images"
 }

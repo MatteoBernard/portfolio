@@ -20,7 +20,7 @@ export const Dashboard = () => {
             <MainContainer transparent={true}>
                 <div className={clsx(
                     "flex flex-col-reverse justify-around items-center gap-2",
-                    "md:flex-row",
+                    "md:flex-row lg:my-4",
                 )}>
                     <div className={clsx(
                         "flex flex-col justify-center gap-6",

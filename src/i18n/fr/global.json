@@ -10,5 +10,9 @@
   "hi": "Salut \uD83D\uDC4B, c'est",
   "seeMore": "Voir plus",
   "myProjects": "Mes projets",
-  "mySkills": "Mes compétences"
+  "mySkills": "Mes compétences",
+  "404": "Oups, la page n'existe pas.",
+  "project": "Projet",
+  "collaborators": "Collaborateurs",
+  "projectImages": "Images du projet"
 }
