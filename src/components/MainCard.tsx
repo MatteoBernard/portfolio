@@ -9,22 +9,24 @@ type MainCardProps = {
     description: string[];
     onClick?: () => void;
     complement?: React.ReactNode;
+    truncateText?: boolean;
 }
 
-export const MainCard = ({title, image, imageFromAssets, imageBackground, description, onClick, complement}: MainCardProps) => {
+export const MainCard = ({title, image, imageFromAssets, imageBackground, description, onClick, complement, truncateText}: MainCardProps) => {
     return (
-        <div className={clsx(
+        <div onClick={onClick} className={clsx(
             "flex flex-col justify-between",
             "w-auto min-w-1/4",
             "m-3 md:m-5 lg:m-3 p-6 ",
             "bg-zinc-700",
-            "rounded-lg"
+            "rounded-lg",
+            onClick ? "cursor-pointer" : ""
         )}>
             <div className={clsx(
                 "flex flex-col items-center gap-4",
                 "w-full"
             )}>
-                <img src={imageFromAssets ? require("../" + image) : image} alt={title} onClick={onClick} className={clsx(
+                <img src={imageFromAssets ? require("../" + image) : image} alt={title} className={clsx(
                     "rounded-lg",
                     "object-contain",
                     "w-2/3 aspect-square",
@@ -32,7 +34,8 @@ export const MainCard = ({title, image, imageFromAssets, imageBackground, descri
                 )}/>
 
                 <h2 className={clsx(
-                    "text-lg font-bold truncate max-w-full"
+                    "text-lg font-bold max-w-full",
+                    truncateText ? "truncate" : ""
                 )}>{title}</h2>
 
                 <div>

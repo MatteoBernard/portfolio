@@ -6,7 +6,7 @@
 
 @layer components {
     .header-link {
-        @apply hover:border-b-2 hover:border-b-purple-400 hover:text-purple-400 ;
+        @apply border-b-2 border-b-zinc-950 hover:border-b-purple-400 hover:text-purple-400 ;
     }
 
     .header-flag {

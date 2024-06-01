@@ -1,6 +1,6 @@
 import {ReactNode, useState} from "react";
 import {useTranslation} from "react-i18next";
-import {Link} from "react-router-dom";
+import {useNavigate} from "react-router-dom";
 import ukFlag from "../assets/images/icons/uk.jpg";
 import frFlag from "../assets/images/icons/fr.jpg";
 import {clsx} from "clsx";
@@ -13,7 +13,7 @@ type TemplateProps = {
 export const Template = ({children, title}: TemplateProps) => {
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-
+    const navigate = useNavigate();
     const { i18n, t } = useTranslation();
 
     const changeLanguage = (language: string) => {
@@ -31,9 +31,9 @@ export const Template = ({children, title}: TemplateProps) => {
                 "bg-zinc-950",
                 "font-semibold"
             )}>
-                <p className={clsx(
+                <button onClick={() => {navigate("/")}} className={clsx(
                     "text-xl",
-                )}>{t('global:lastName')} <span className={"text-purple-400"}>{t('global:firstName')}</span></p>
+                )}>{t('global:lastName')} <span className={"text-purple-400"}>{t('global:firstName')}</span></button>
 
                 <div className={clsx(
                     "flex justify-around gap-2 items-center",
@@ -68,10 +68,21 @@ export const Template = ({children, title}: TemplateProps) => {
                         "bg-zinc-950 rounded-bl-md",
                         "lg:hidden",
                     )}>
-                        <Link to={"/"} className={"header-link"}>{t('global:home')}</Link>
-                        <Link to={"/aboutme"} className={"header-link"}>{t('global:about')}</Link>
-                        <Link to={"/skills"} className={"header-link"}>{t('global:skills')}</Link>
-                        <Link to={"/projects"} className={"header-link"}>{t('global:projects')}</Link>
+                        <button className={"header-link"} onClick={() => {
+                            navigate("/")
+                        }}>{t('global:home')}</button>
+
+                        <button className={"header-link"} onClick={() => {
+                            navigate("/aboutme")
+                        }}>{t('global:about')}</button>
+
+                        <button className={"header-link"} onClick={() => {
+                            navigate("/skills")
+                        }}>{t('global:skills')}</button>
+
+                        <button className={"header-link"} onClick={() => {
+                            navigate("/projects")
+                        }}>{t('global:projects')}</button>
 
                         {i18n.language === 'en' ?
                             <button onClick={() => changeLanguage('fr')}>
@@ -89,10 +100,21 @@ export const Template = ({children, title}: TemplateProps) => {
                         "hidden lg:flex justify-around gap-2 items-center",
                         "w-1/3",
                     )}>
-                        <Link to={"/"} className={"header-link"}>{t('global:home')}</Link>
-                        <Link to={"/aboutme"} className={"header-link"}>{t('global:about')}</Link>
-                        <Link to={"/skills"} className={"header-link"}>{t('global:skills')}</Link>
-                        <Link to={"/projects"} className={"header-link"}>{t('global:projects')}</Link>
+                        <button className={"header-link"} onClick={() => {
+                            navigate("/")
+                        }}>{t('global:home')}</button>
+
+                        <button className={"header-link"} onClick={() => {
+                            navigate("/aboutme")
+                        }}>{t('global:about')}</button>
+
+                        <button className={"header-link"} onClick={() => {
+                            navigate("/skills")
+                        }}>{t('global:skills')}</button>
+
+                        <button className={"header-link"} onClick={() => {
+                            navigate("/projects")
+                        }}>{t('global:projects')}</button>
 
                         {i18n.language === 'en' ?
                             <button onClick={() => changeLanguage('fr')}>

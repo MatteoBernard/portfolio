@@ -94,7 +94,7 @@ export const Dashboard = () => {
                     {
                         globalskills.map((skill) => (
                             <MainCard title={skill.name} image={skill.image} imageFromAssets={true} imageBackground={true}
-                                      description={skill.description}/>
+                                      description={skill.description} truncateText={false}/>
                         ))
                     }
                 </div>

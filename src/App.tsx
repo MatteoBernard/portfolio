@@ -3,6 +3,9 @@ import {RootNavigation} from "./navigation";
 import {clsx} from "clsx";
 
 function App() {
+
+
+
   return (
     <div className={clsx(
         "bg-zinc-900",

@@ -1,7 +1,15 @@
-import {Route, Routes} from "react-router-dom";
+import {Route, Routes, useLocation} from "react-router-dom";
 import {AboutMe, Dashboard, NotFound, Projects, ShowProject, Skills} from "../pages";
+import {useEffect} from "react";
 
 export const RootNavigation = () => {
+
+    const { pathname } = useLocation();
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [pathname]);
+
     return (
         <Routes>
             <Route path={"/aboutme"} element={<AboutMe />} />
