@@ -1,4 +1,4 @@
-import {AboutMe, GlobalSkill, Project} from "../types";
+import {AboutMeData, GlobalSkill, Project} from "../types";
 import i18n from "i18next";
 import Template from "./Template";
 import {useTranslation} from "react-i18next";
@@ -10,7 +10,7 @@ import {useNavigate} from "react-router-dom";
 export const Dashboard = () => {
 
     const { t } = useTranslation();
-    const aboutMe = i18n.getResourceBundle(i18n.language, "aboutme") as AboutMe;
+    const aboutMe = i18n.getResourceBundle(i18n.language, "aboutme") as AboutMeData;
     const projects = i18n.getResourceBundle(i18n.language, "projects").slice(0, 4) as Project[];
     const globalskills = i18n.getResourceBundle(i18n.language, "globalskills") as GlobalSkill[];
     const navigate = useNavigate();

@@ -18,6 +18,7 @@ export const Template = ({children, title}: TemplateProps) => {
 
     const changeLanguage = (language: string) => {
         i18n.changeLanguage(language);
+        setIsMenuOpen(false);
     }
 
     return (
@@ -68,6 +69,7 @@ export const Template = ({children, title}: TemplateProps) => {
                         "lg:hidden",
                     )}>
                         <Link to={"/"} className={"header-link"}>{t('global:home')}</Link>
+                        <Link to={"/aboutme"} className={"header-link"}>{t('global:about')}</Link>
                         <Link to={"/skills"} className={"header-link"}>{t('global:skills')}</Link>
                         <Link to={"/projects"} className={"header-link"}>{t('global:projects')}</Link>
 
@@ -88,6 +90,7 @@ export const Template = ({children, title}: TemplateProps) => {
                         "w-1/3",
                     )}>
                         <Link to={"/"} className={"header-link"}>{t('global:home')}</Link>
+                        <Link to={"/aboutme"} className={"header-link"}>{t('global:about')}</Link>
                         <Link to={"/skills"} className={"header-link"}>{t('global:skills')}</Link>
                         <Link to={"/projects"} className={"header-link"}>{t('global:projects')}</Link>
 

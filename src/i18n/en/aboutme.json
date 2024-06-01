@@ -15,7 +15,12 @@
     ]
   },
   "educationImg": "assets/images/aboutme/educationEn.png",
-  "otherInfos": "I love playing video games, my favorites are Overwatch 2, Hollow Knight and Subnautica. I also like new technologies, and development. \n I like to listen to all kinds of music. \n My mother tongue is French, and I have a good level of English.",
+  "otherInfos": [
+    "I love playing video games, my favorite ones are Overwatch 2, Hollow Knight and Subnautica.",
+    "I also like new technologies, and development.",
+    "I like to listen to all kinds of music. ",
+    "My mother tongue is French, and I have a good level of English."
+  ],
   "contact": {
     "linkedin": "https://www.linkedin.com/in/matt%C3%A9o-bernard-00137a255/",
     "github": "https://github.com/MatteoBernard",

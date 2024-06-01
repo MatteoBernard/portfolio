@@ -1,4 +1,4 @@
-export interface AboutMe {
+export interface AboutMeData {
     job: string;
     image: string;
     descriptions: {
@@ -6,7 +6,7 @@ export interface AboutMe {
         long: string[];
     }
     educationImg: string;
-    otherInfos: string;
+    otherInfos: string[];
     contact: {
         linkedin: string;
         github: string;

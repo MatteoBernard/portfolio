@@ -1,5 +1,5 @@
 import React from 'react';
-import {Router} from "./navigation";
+import {RootNavigation} from "./navigation";
 import {clsx} from "clsx";
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
         "min-h-screen max-w-full",
         "font-sans"
     )}>
-        <Router />
+        <RootNavigation />
     </div>
   );
 }

@@ -15,7 +15,12 @@
         ]
     },
     "educationImg": "assets/images/aboutme/educationFr.png",
-    "otherInfos": "J'aime jouer aux jeux vidéos, mes favoris sont Overwatch 2, Hollow Knight et Subnautica. J'aime également les nouvelles technologies, et le développement. \n J'aime écouter toutes sortes de musiques. \n J'ai comme langue maternelle le français, et j'ai un bon niveau d'anglais.",
+    "otherInfos": [
+        "J'aime jouer aux jeux vidéos, mes favoris sont Overwatch 2, Hollow Knight et Subnautica.",
+        "J'aime également les nouvelles technologies, et le développement.",
+        "J'aime écouter toutes sortes de musiques.",
+        "J'ai comme langue maternelle le français, et j'ai un bon niveau d'anglais."
+    ],
     "contact": {
         "linkedin": "https://www.linkedin.com/in/matt%C3%A9o-bernard-00137a255/",
         "github": "https://github.com/MatteoBernard",
