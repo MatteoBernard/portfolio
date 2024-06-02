@@ -16,12 +16,11 @@ export const NotFound = () => {
             <div className={clsx(
                 "flex justify-center items-center flex-col gap-6",
                 "p-12",
-                "text-4xl font-bold",
             )}>
                 <h1 className={clsx(
-
+                    "text-4xl font-bold text-center"
                 )}>{t("global:404")}</h1>
-                <img src={randomImage} alt={"404"} className={"w-1/5"}/>
+                <img src={randomImage} alt={"404"} className={"w-80"}/>
             </div>
         </Template>
     );
