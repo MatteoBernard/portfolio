@@ -11,5 +11,6 @@ export interface AboutMeData {
         linkedin: string;
         github: string;
         email: string;
-    }
+    },
+    pfp_by: string;
 }

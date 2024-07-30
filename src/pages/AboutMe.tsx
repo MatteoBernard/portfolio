@@ -45,6 +45,7 @@ export const AboutMe = () => {
                             )}>{item}</p>
                         ))
                     }
+                    <p className={"text-sm md:text-lg"}>{aboutMe.pfp_by} <a className={"underline"} href={"https://meridiona.carrd.co/"} target={"_blank"}>Meridiona</a> !</p>
                 </div>
             </MainContainer>
         </Template>

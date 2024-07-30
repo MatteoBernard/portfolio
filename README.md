@@ -17,3 +17,8 @@ This website is hosted on GitHub Pages, here : [link](https://matteobernard.gith
 ## Updates 
 
 - 01/06/2024 : Initialisation of the project
+- 30/07/2024 : Update 
+
+## Icon
+
+Profile icon made by [Meridiona](https://meridiona.carrd.co/).

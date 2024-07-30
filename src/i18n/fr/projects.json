@@ -20,23 +20,25 @@
     "github": "https://github.com/MatteoBernard/SkylandersWiki"
   },
   {
-    "name": "SkylandersApi",
-    "image": "assets/images/icons/skylandersApi.png",
+    "name": "PawkeDex",
+    "image": "assets/images/icons/pawkedex.png",
     "description": {
-      "short": "Projet personnel, API REST, sur les figurines Skylanders.",
+      "short": "Projet personnel, Pokedex version mobile hybride.",
       "long": [
-        "J'ai réalisé ce projet pour pouvoir replonger dans une licence de mon enfance, les Skylanders. Cela m'a également permis de découvrir le framework Express, et de m'améliorer en Javascript.",
-        "L'API permet de récupérer des informations sur les figurines, personnages, jeux et éléments de la licence Skylanders. Les routes renvoient des données au format JSON. On retrouve également une documentation Swagger."
+        "J'ai réalisé ce projet pour réaborder une licence phare de mon enfance : Pokémon. Ce projet m'a permis de prendre en compétences et en connaissance en TypeScript, ainsi qu'en React Native. Des librairies comme Redux Toolkit ou React Navigation on été utilisées. De plus, j'ai pu pratiquer mon sens du design, en reprenant et en adaptant la direction artistique de Pokémon.",
+        "L'application permet de lister tous les Pokémons de la licence, et d'afficher leurs informations. Il est possible de placer ces Pokémons en favoris, d'afficher leurs sprites ou encore leurs statistiques. Des informations sur les régions sont également disponibles."
       ]
     },
-    "date": "avril 2024",
-    "duration": "~10 heures",
+    "date": "juillet 2024",
+    "duration": "~20 heures",
     "images": [
-      "assets/images/projects/skylandersApi1.PNG",
-      "assets/images/projects/skylandersApi2.PNG"
+      "assets/images/projects/pawkedex1.jpg",
+      "assets/images/projects/pawkedex2.jpg",
+      "assets/images/projects/pawkedex3.jpg",
+      "assets/images/projects/pawkedex4.jpg"
     ],
     "collaborators": [],
-    "github": "https://github.com/MatteoBernard/SkylandersApi"
+    "github": "https://github.com/MatteoBernard/PawkeDex"
   },
   {
     "name": "FlappyCapy",
@@ -98,6 +100,25 @@
     ],
     "collaborators": [],
     "github": "https://github.com/MatteoBernard/OWLdle"
+  },
+  {
+    "name": "SkylandersApi",
+    "image": "assets/images/icons/skylandersApi.png",
+    "description": {
+      "short": "Projet personnel, API REST, sur les figurines Skylanders.",
+      "long": [
+        "J'ai réalisé ce projet pour pouvoir replonger dans une licence de mon enfance, les Skylanders. Cela m'a également permis de découvrir le framework Express, et de m'améliorer en Javascript.",
+        "L'API permet de récupérer des informations sur les figurines, personnages, jeux et éléments de la licence Skylanders. Les routes renvoient des données au format JSON. On retrouve également une documentation Swagger."
+      ]
+    },
+    "date": "avril 2024",
+    "duration": "~10 heures",
+    "images": [
+      "assets/images/projects/skylandersApi1.PNG",
+      "assets/images/projects/skylandersApi2.PNG"
+    ],
+    "collaborators": [],
+    "github": "https://github.com/MatteoBernard/SkylandersApi"
   },
   {
     "name": "RayTracer",

@@ -4,6 +4,7 @@ import Template from "./Template";
 import {useTranslation} from "react-i18next";
 import {MainCard, MainContainer} from "../components";
 import pfp from "../assets/images/aboutme/pfp.png"
+import pfp2 from "../assets/images/aboutme/pfp2.png"
 import {clsx} from "clsx";
 import {useNavigate} from "react-router-dom";
 
@@ -76,7 +77,7 @@ export const Dashboard = () => {
                         "h-3/5 w-3/5 md:h-60 md:w-60 lg:h-80 lg:w-80",
                         "mb-12"
                     )}>
-                        <img src={pfp} className={clsx(
+                        <img src={pfp2} className={clsx(
                             "rounded-full",
                             "shadow-all-around",
                             "bg-purple-400 opacity-80",
