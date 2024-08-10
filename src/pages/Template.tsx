@@ -8,9 +8,10 @@ import {clsx} from "clsx";
 type TemplateProps = {
     children: ReactNode;
     title: string;
+    grow?: boolean;
 }
 
-export const Template = ({children, title}: TemplateProps) => {
+export const Template = ({children, title, grow = true}: TemplateProps) => {
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const navigate = useNavigate();
@@ -129,7 +130,12 @@ export const Template = ({children, title}: TemplateProps) => {
 
             </header>
             {children}
-            <div className="flex-grow"/>
+
+            {
+                grow && (
+                    <div className="flex-grow"/>
+                )
+            }
             <footer className={clsx(
                 "flex justify-center items-center flex-col gap-2",
                 "p-6",
@@ -137,7 +143,7 @@ export const Template = ({children, title}: TemplateProps) => {
                 "bg-zinc-950",
             )}>
                 <p>{t('global:footer.top')}</p>
-                <p>{t('global:footer.bottom')}</p>
+                <p>{t('global:footer.bottom')} - <span onClick={() => {navigate("/pedro")}}>Pedro</span></p>
             </footer>
         </div>
     );
