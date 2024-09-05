@@ -4,15 +4,38 @@
     "image": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
     "description": [
         "Maîtrise approfondie du langage, de ses spécificités et de ses bonnes pratiques.",
-        "Frameworks et outils : React, React Native, Angular, Ionic."
+        "Callbacks, Promises, Interfaces, Types."
     ]
   },
   {
-    "name": "JavaScript",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+    "name": "React",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
     "description": [
-        "Maîtrise correcte du langage et de ses spécificités.",
-        "Frameworks et outils : Express."
+        "Maîtrise approfondie du framework, de ses concepts et de ses bonnes pratiques.",
+        "Redux, i18n, Hooks, Router, Axios."
+    ]
+  },
+  {
+    "name": "React Native",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+    "description": [
+        "Maîtrise correcte du framework et de ses bonnes pratiques.",
+        "Expo, Redux, i18n, Hooks, Router, Axios."
+    ]
+  },
+  {
+    "name": "Angular",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg",
+    "description": [
+        "Maîtrise correcte du framework et de ses conventions.",
+        "Services, Components, Modèles, Router, HttpClient."
+    ]
+  },
+  {
+    "name": "Tailwind CSS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
+    "description": [
+        "Maîtrise correcte de l'outil, des classes et des utilities."
     ]
   },
   {
@@ -20,39 +43,15 @@
     "image": "https://upload.wikimedia.org/wikipedia/fr/2/2e/Java_Logo.svg",
     "description": [
         "Maîtrise approfondie du langage, de sa syntaxe, des bonnes pratiques et du concept de POO.",
-        "Frameworks et outils : JavaFX, SceneBuilder."
+        "Héritage, Polymorphisme, JavaFX."
     ]
   },
   {
-    "name": "Python",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
+    "name": "Spring Boot",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/79/Spring_Boot.svg",
     "description": [
-        "Maîtrise approfondie du langage et de sa syntaxe.",
-        "Frameworks et outils : Pygame."
-    ]
-  },
-  {
-    "name": "PHP",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/3/31/Webysther_20160423_-_Elephpant.svg",
-    "description": [
-        "Maîtrise suffisante du langage.",
-        "Frameworks et outils : Laravel, Blade."
-    ]
-  },
-  {
-    "name": "CSS",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
-    "description": [
-        "Bonne maîtrise des propriétés et des sélecteurs.",
-        "Frameworks et outils : Tailwind, Bootstrap."
-    ]
-  },
-  {
-    "name": "SQL",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg",
-    "description": [
-        "Maîtrise correcte des requêtes, triggers, vues.",
-        "SGBD : PostgreSQL."
+        "Maitrise correcte du framework, de ses annotations et de ses bonnes pratiques.",
+        "JPA, Hibernate, REST, Security."
     ]
   },
   {
@@ -60,7 +59,7 @@
     "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg",
     "description": [
         "Maîtrise des commandes de base et des bonnes pratiques.",
-        "Outils : GitHub, GitLab."
+        "GitHub, GitLab."
     ]
   }
 ]

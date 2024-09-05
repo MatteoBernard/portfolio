@@ -3,64 +3,63 @@
     "name": "TypeScript",
     "image": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
     "description": [
-        "Great mastery of language, its specificities and good practices.",
-        "Frameworks and tools: React, React Native, Angular, Ionic."
+      "In-depth mastery of the language, its specificities and its best practices.",
+      "Callbacks, Promises, Interfaces, Types."
     ]
   },
   {
-    "name": "JavaScript",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+    "name": "React",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
     "description": [
-        "Sufficient mastery of language and its specificities.",
-        "Frameworks and tools: Express."
+      "In-depth mastery of the framework, its concepts and its best practices.",
+      "Redux, i18n, Hooks, Router, Axios."
+    ]
+  },
+  {
+    "name": "React Native",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+    "description": [
+      "Great mastery of the framework and its best practices.",
+      "Expo, Redux, i18n, Hooks, Router, Axios."
+    ]
+  },
+  {
+    "name": "Angular",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg",
+    "description": [
+      "Correct mastery of the framework and its conventions.",
+      "Services, Components, Modèles, Router, HttpClient."
+    ]
+  },
+  {
+    "name": "Tailwind CSS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
+    "description": [
+      "Great mastery of the tool, classes and utilities."
     ]
   },
   {
     "name": "Java",
     "image": "https://upload.wikimedia.org/wikipedia/fr/2/2e/Java_Logo.svg",
     "description": [
-        "Great mastery of the language, its syntax, best practices and the concept of OOP.",
-        "Frameworks and tools: JavaFX, SceneBuilder."
+      "In-depth mastery of the language, its syntax, best practices and the concept of OOP.",
+      "Inheritance, Polymorphism, JavaFX."
     ]
   },
   {
-    "name": "Python",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
+    "name": "Spring Boot",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/79/Spring_Boot.svg",
     "description": [
-        "Great mastery of language and syntax.",
-        "Frameworks and tools: Pygame."
-    ]
-  },
-  {
-    "name": "PHP",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg",
-    "description": [
-        "Great mastery of language.",
-        "Frameworks and tools: Laravel, Blade."
-    ]
-  },
-  {
-    "name": "CSS",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
-    "description": [
-        "Good control of properties and selectors.",
-        "Frameworks and tools: Tailwind, Bootstrap."
-    ]
-  },
-  {
-    "name": "SQL",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg",
-    "description": [
-        "Correct control of queries, triggers, views.",
-        "DBMS: PostgreSQL."
+      "Great mastery of the framework, its annotations and its best practices.",
+      "JPA, Hibernate, REST, Security."
     ]
   },
   {
     "name": "Git",
     "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg",
     "description": [
-        "Proficiency with basic controls and best practices.",
-        "Tools: GitHub, GitLab."
+      "Great mastery of basic commands and best practices.",
+      "GitHub, GitLab."
     ]
   }
 ]
