@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.a335c418.css",
-    "main.js": "/portfolio/static/js/main.ea954e72.js",
+    "main.js": "/portfolio/static/js/main.662525ee.js",
     "static/js/885.b3e0bb78.chunk.js": "/portfolio/static/js/885.b3e0bb78.chunk.js",
     "static/js/453.5858e738.chunk.js": "/portfolio/static/js/453.5858e738.chunk.js",
     "static/media/jadex1.png": "/portfolio/static/media/jadex1.d8160706dc29c44e641a.png",
@@ -20,6 +20,7 @@
     "static/media/meme4.gif": "/portfolio/static/media/meme4.825a1e9352ddaf058bfb.gif",
     "static/media/pawkedex4.jpg": "/portfolio/static/media/pawkedex4.a7b4e53a5f933d3672af.jpg",
     "static/media/pfp2.png": "/portfolio/static/media/pfp2.499aa07125b3ce59ba49.png",
+    "static/media/pfp3.png": "/portfolio/static/media/pfp3.6c3bfe821a7fcdd96281.png",
     "static/media/flappyCapy.png": "/portfolio/static/media/flappyCapy.61a14f5c26bf021dba3b.png",
     "static/media/pedro.mp3": "/portfolio/static/media/pedro.02027d5f9f9f4a24e6d7.mp3",
     "static/media/skylandersApi.png": "/portfolio/static/media/skylandersApi.fe781cde0ee20291c96d.png",
@@ -55,12 +56,12 @@
     "static/media/desktop_icon.png": "/portfolio/static/media/desktop_icon.6a57d9c385434834c659.png",
     "index.html": "/portfolio/index.html",
     "main.a335c418.css.map": "/portfolio/static/css/main.a335c418.css.map",
-    "main.ea954e72.js.map": "/portfolio/static/js/main.ea954e72.js.map",
+    "main.662525ee.js.map": "/portfolio/static/js/main.662525ee.js.map",
     "885.b3e0bb78.chunk.js.map": "/portfolio/static/js/885.b3e0bb78.chunk.js.map",
     "453.5858e738.chunk.js.map": "/portfolio/static/js/453.5858e738.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a335c418.css",
-    "static/js/main.ea954e72.js"
+    "static/js/main.662525ee.js"
   ]
 }
