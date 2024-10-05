@@ -19,6 +19,7 @@ This website is hosted on GitHub Pages, here : [link](https://matteobernard.gith
 - 01/06/2024 : Initialisation of the project
 - 30/07/2024 : Update 
 - 05/09/2024 : Update
+- 06/10/2024 : Update
 
 ## Icon
 
