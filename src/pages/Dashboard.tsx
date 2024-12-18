@@ -3,7 +3,7 @@ import i18n from "i18next";
 import Template from "./Template";
 import {useTranslation} from "react-i18next";
 import {MainCard, MainContainer} from "../components";
-import pfp from "../assets/images/aboutme/pfp3.png"
+import pfp from "../assets/images/aboutme/pfp2.png"
 import {clsx} from "clsx";
 import {useNavigate} from "react-router-dom";
 
